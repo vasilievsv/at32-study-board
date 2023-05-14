@@ -1,1 +1,1 @@
-# at32-study-board
+# EasyEDA - gd32-study-board 

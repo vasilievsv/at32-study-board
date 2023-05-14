@@ -1,0 +1,319 @@
+{
+  "uuid": "a849c583560c822289f4052f52f79bb3",
+  "path": "Offline/esp32_iot_base",
+  "name": "esp32_iot_base",
+  "content": "",
+  "created_at": "2022-10-20 16:06:10",
+  "updated_at": "2023-05-10 00:38:29",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "3b69fd4ef49a3213699405c9e8936360",
+      "title": "sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "429d4089b55d4befa0e9687531a5be15": 1,
+        "b82150387a2041b4afd55b90c79c5923": 5,
+        "e33cc1be9d5e4d929dda60b4eb023d72": 1,
+        "ed9eb2faffb34286820a54a14e9e9e24": 9,
+        "e545f26e87c74952857381bd0bff848e": 2,
+        "66a9662b7911442a9b543ae8edfc6482": 1,
+        "6f9af7e4e0ad43b38a49053171beb1c4": 2,
+        "757d0a6983ac4eee9030f5892bfbf6a1": 1,
+        "6a83314d8c8f494d808b253055c82258": 2,
+        "1b595f0ba845438892e8d02e16de6e7f": 1,
+        "b21eb32995554ad4aa0546e820a652e2": 1,
+        "3adac0687b184795ac82a88d7030b579": 1,
+        "ba1f207f2c0447edbd5beb657b435022": 1,
+        "5eb4cd1ec4404d00915969d20003c302": 4,
+        "a9aa2b14f188405792fa87ac344499a4": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "HDR-M-2.54_1x2",
+          1,
+          "HDR-M-2.54_1X2",
+          "BAT",
+          {
+            "BOM_Supplier Part": "C124375",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "70aa5812f21f4991bf427395d51849f4",
+            "uuid": "a9aa2b14f188405792fa87ac344499a4"
+          }
+        ],
+        [
+          "0.1u",
+          4,
+          "C0805",
+          "C1,C2,C3,C4",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "1u",
+          2,
+          "CASE-A_3216",
+          "C5,C6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "ce25118ef0b041b8a773e71ca28ae65d",
+            "uuid": "e545f26e87c74952857381bd0bff848e"
+          }
+        ],
+        [
+          "100nf",
+          1,
+          "C0805",
+          "C8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "LED-0805_G",
+          1,
+          "LED0805_GREEN",
+          "CHRG",
+          {
+            "BOM_Manufacturer": "国星光电",
+            "BOM_Manufacturer Part": "NCD0805G1",
+            "BOM_Supplier Part": "C84260",
+            "BOM_Supplier": "",
+            "puuid": "df7b9c1c92a741e3a4e90f224547567e",
+            "uuid": "ba1f207f2c0447edbd5beb657b435022"
+          }
+        ],
+        [
+          "1N4007W",
+          1,
+          "SOD-123_L2.8-W1.8-LS3.7-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C328592",
+            "BOM_Manufacturer": "BLUE ROCKET",
+            "BOM_Manufacturer Part": "1N4007W",
+            "puuid": "60a676d313ae48718a81c380b73dfe4f",
+            "uuid": "e33cc1be9d5e4d929dda60b4eb023d72"
+          }
+        ],
+        [
+          "BC817-16,215",
+          2,
+          "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+          "Q3,Q4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Nexperia",
+            "BOM_Manufacturer Part": "BC817-16,215",
+            "BOM_Supplier Part": "C126908",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b3b82869fa924bae820e3a6cfb44d689",
+            "uuid": "6f9af7e4e0ad43b38a49053171beb1c4"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0805",
+          "R1,R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "10kΩ",
+          4,
+          "R0805",
+          "R2,R3,R4,R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "100",
+          2,
+          "R0805",
+          "R6,R7",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "5k",
+          1,
+          "R0805",
+          "R10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "LED-0805_R",
+          1,
+          "LED0805_RED",
+          "STDBY",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "17-21SURC/S530-A3/TR8",
+            "BOM_Supplier Part": "C72037",
+            "BOM_Supplier": "",
+            "puuid": "090b645653374cf992fd93fb559e27d2",
+            "uuid": "3adac0687b184795ac82a88d7030b579"
+          }
+        ],
+        [
+          "OS102011MA1QN1",
+          1,
+          "SW-TH_OS102011MA1QN1",
+          "SW0",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C226259",
+            "BOM_Manufacturer": "C&K",
+            "BOM_Manufacturer Part": "OS102011MA1QN1",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "08afc252c94348cd9945ff4bc94daeec",
+            "uuid": "757d0a6983ac4eee9030f5892bfbf6a1"
+          }
+        ],
+        [
+          "ESP-WROOM-32D",
+          1,
+          "ESP32_DOUBLE_IC",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2894836",
+            "BOM_Manufacturer Part": "ESP-WROOM-32D",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "a4bef0dc1ef740d8abaca2a7ee97d86d",
+            "uuid": "429d4089b55d4befa0e9687531a5be15"
+          }
+        ],
+        [
+          "pbd2-6",
+          1,
+          "PBD2-6",
+          "U2",
+          {
+            "BOM_Manufacturer": "Ningbo",
+            "BOM_Manufacturer Part": "DS1026-06-2*3S8BV",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "DS-1026-06 - 2X3",
+            "puuid": "21c158819d4f47ec8d30d18d0e3646cc",
+            "uuid": "1b595f0ba845438892e8d02e16de6e7f"
+          }
+        ],
+        [
+          "PBD2-2x5",
+          4,
+          "PBD2-2X5",
+          "U3,U4,U7,U8",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "663706023c8042a8a3314725f71b2932",
+            "uuid": "5eb4cd1ec4404d00915969d20003c302"
+          }
+        ],
+        [
+          "TP4056_C725790",
+          1,
+          "ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP",
+          "U5",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C725790",
+            "BOM_Manufacturer": "UMW(友台半导体)",
+            "BOM_Manufacturer Part": "TP4056",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "7568fee05bc44581b2c32625ae15b3f8",
+            "uuid": "b21eb32995554ad4aa0546e820a652e2"
+          }
+        ],
+        [
+          "AMS1117A-3.3V",
+          1,
+          "SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR",
+          "U6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2984862",
+            "BOM_Manufacturer": "HX(恒佳兴)",
+            "BOM_Manufacturer Part": "AMS1117A-3.3V",
+            "puuid": "02ae667aca734971be8a5f58143dd564",
+            "uuid": "66a9662b7911442a9b543ae8edfc6482"
+          }
+        ],
+        [
+          "KAN0647-0342B-B",
+          2,
+          "KEY-SMD_4P-L6.6-W6.1-P4.50-L8.4",
+          "_BOOT_,_EN_",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C231694",
+            "BOM_Manufacturer": "GANGYUAN",
+            "BOM_Manufacturer Part": "KAN0647-0342B-B",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "8d60c2efd90d4d40b906826c7c935693",
+            "uuid": "6a83314d8c8f494d808b253055c82258"
+          }
+        ]
+      ],
+      "updateTime": 1683617509,
+      "createTime": 1666271170,
+      "histories": [],
+      "created_at": "2022-10-20 16:06:10",
+      "updated_at": "2023-05-09 10:31:49"
+    }
+  ],
+  "sort": [],
+  "title": "esp32_iot_base",
+  "foldername": "esp32_iot_base",
+  "schfilename": "esp32_iot_base.json",
+  "schfilemtime": 1683617509785
+}
